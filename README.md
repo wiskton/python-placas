@@ -1,13 +1,17 @@
-# ubuntu install
+Placas
+==========
+
+Libs Ubuntu:
 
     sudo apt update
     sudo apt install tesseract-ocr
     sudo apt install libtesseract-dev
 
-# install libs do python
+
+Libs do Python:
 
     pip install -r requirements.txt
 
-# rodar projeto
+Rodar Projeto:
 
     python ler_placas.py
