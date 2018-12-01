@@ -29,6 +29,10 @@ Segmentation fault (core dumped)
 Execute the following command:
 sudo cp /usr/share/openalpr/runtime_data/ocr/tessdata/*.traineddata /usr/share/openalpr/runtime_data/ocr/
 
+And this (into /openlpr folder):
+sudo cp lbr.traineddata /usr/share/openalpr/runtime_data/ocr/
+sudo cp lbr.traineddata /usr/share/openalpr/runtime_data/ocr/tessdata/
+sudo cp /usr/share/openalpr/runtime_data/region/eu.xml /usr/share/openalpr/runtime_data/region/br.xml
 
 GITHUB ISSUE:
 
