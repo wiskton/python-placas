@@ -1,15 +1,22 @@
 REFERENCE:
-http://doc.openalpr.com/opensource.html
+	
+	http://doc.openalpr.com/opensource.html
 
 UBUNTU REQUIREMENTS:
-$ wget -O - https://deb.openalpr.com/openalpr.gpg.key | sudo apt-key add -
-$ echo "deb https://deb.openalpr.com/master/ trusty main" | sudo tee /etc/apt/sources.list.d/openalpr.list
-$ sudo apt-get update
-$ sudo apt-get install openalpr openalpr-daemon openalpr-utils libopenalpr-dev
-$ sudo cp br.conf /usr/share/openalpr/runtime_data/config/
+
+	$ wget -O - https://deb.openalpr.com/openalpr.gpg.key | sudo apt-key add -
+	$ echo "deb https://deb.openalpr.com/master/ trusty main" | sudo tee /etc/apt/sources.list.d/openalpr.list
+	$ sudo apt-get update
+	$ sudo apt-get install openalpr openalpr-daemon openalpr-utils libopenalpr-dev
+	$ sudo cp br.conf /usr/share/openalpr/runtime_data/config/
+
+INSTALL:
+
+	cd openlpr
+	./install.sh
 
 USAGE:
-$ alpr -c br ../imgs/5.jpg
+	alpr -c br ../imgs/5.jpg
 
 FIX PROBLEMS:
 For te error:
@@ -24,4 +31,5 @@ sudo cp /usr/share/openalpr/runtime_data/ocr/tessdata/*.traineddata /usr/share/o
 
 
 GITHUB ISSUE:
-https://github.com/openalpr/openalpr/issues/124
+
+	https://github.com/openalpr/openalpr/issues/124

@@ -4,8 +4,7 @@ Placas
 Libs Ubuntu:
 
     sudo apt update
-    sudo apt install tesseract-ocr
-    sudo apt install libtesseract-dev
+    sudo apt install -y tesseract-ocr libtesseract-dev
 
 
 Libs do Python:
@@ -15,3 +14,8 @@ Libs do Python:
 Rodar Projeto:
 
     python ler_placas.py
+
+
+Analisar
+	
+	https://github.com/openalpr/train-ocr
